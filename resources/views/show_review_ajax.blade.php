@@ -10,8 +10,10 @@
       <div class="panel-body">
         <header class="text-left">
           <div class="comment-user"><i class="fa fa-user"></i> {{ $product_ratings['author'] }}</div>
-          <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i>  {{ date('d-M-Y')}}</time>
+          <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i>  {{ date('d-M-Y')}}
+          </time>
         </header>
+        
         <div class="comment-post">
           <p>
             {{ $product_ratings['comment'] }}
